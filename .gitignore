@@ -1,0 +1,19 @@
+@"
+# Ignore les fichiers compilés Python et env
+__pycache__/
+*.pyc
+*.pyo
+*.env
+*used_cars_data.csv
+
+# Ignore les fichiers temporaires Windows
+Thumbs.db
+*.bak
+*.tmp
+*.log
+
+# Ignore les fichiers spécifiques à l'IDE (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.sublime-workspace
+"@ > .gitignore
